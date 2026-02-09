@@ -8,7 +8,7 @@ struct DisplayView: View {
             ExpressionComponentView(viewModel: viewModel)
             ResultComponentView(viewModel: viewModel)
         }
-        .padding(.trailing, 10)
+        .padding(.trailing)
     }
 }
 
