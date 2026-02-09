@@ -8,8 +8,7 @@ struct ExpressionComponentView: View {
             HStack {
                 Spacer()
                 Text(viewModel.expression)
-                    .font(.system(size: 32,
-                                  design: .default))
+                    .font(.title)
             }
         }
     }

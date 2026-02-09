@@ -9,15 +9,13 @@ struct ResultComponentView: View {
                 Spacer()
                 if let error = viewModel.calculateError {
                     Text(error)
-                        .font(.system(size: 36,
-                                      weight: .bold,
-                                      design: .default))
+                        .font(.largeTitle)
+                        .bold()
                         .foregroundStyle(.red)
                 } else {
                     Text(viewModel.result)
-                        .font(.system(size: 32,
-                                      weight: .bold,
-                                      design: .default))
+                        .font(.largeTitle)
+                        .bold()
                 }
                 
             }
